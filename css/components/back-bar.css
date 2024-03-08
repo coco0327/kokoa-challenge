@@ -1,0 +1,6 @@
+.back-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px 0;
+  margin-bottom: 20px;
+}

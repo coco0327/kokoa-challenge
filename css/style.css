@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+@import "reset.css";
+
+/*components*/
+@import "components/back-bar.css";
+
+/*screens*/
+@import "screens/artist.css";
+@import "screens/play-song.css";
+
+body {
+  font-family: "Madimi One", sans-serif;
+  background-color: tomato;
+  height: 100vh;
+}
+
+.music-app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.music-app__artist,
+.music-app__play-song {
+  width: 320px;
+  height: 650px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 40px;
+}
